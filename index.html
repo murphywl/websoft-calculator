@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Soft | Calculator</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="calculator">
+      <div class="calculator-header">
+        <input type="text" class="calculator-input" id='calsInput' disabled>
+        <a href="#" class="clear-input"><i class="fa fa-times" aria-hidden="true"></i></a>
+      </div>
+      <div class="calculator-buttons">
+        <div class="calculator__row">
+          <a href="#" class="calculator-buttons__button" data-purposes='clear'>C</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='sign' data-value='%'>%</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='sign' data-value='±'>±</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='sign' data-value='/'>/</a>
+        </div>
+        <div class="calculator__row">
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='7'>7</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='8'>8</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='9'>9</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='sign' data-value='*'>*</a>
+        </div>
+        <div class="calculator__row">
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='4'>4</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='5'>5</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='6'>6</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='sign' data-value='-'>-</a>
+        </div>
+        <div class="calculator__row">
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='1'>1</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='2'>2</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='3'>3</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='sign' data-value='+'>+</a>
+        </div>
+        <div class="calculator__row">
+          <a href="#" class="calculator-buttons__button" data-purposes='number' data-value='0'>0</a>
+          <a href="#" class="calculator-buttons__button" data-purposes='equally'>=</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
